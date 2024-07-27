@@ -1,0 +1,15 @@
+name: example-wrokflow 
+
+on: 
+  push: 
+    branches:
+      - main 
+jobs: 
+  build: 
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: checkout code 
+        run: |
+          echo "this is the mohane"
+
